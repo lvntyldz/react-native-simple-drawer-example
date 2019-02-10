@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Text, View} from 'react-native';
-import {Body, Button, Container, Header, Icon, Left, Right, Title} from 'native-base';
+import {Body, Button, Container, Content, Header, Icon, Left, Right, Title} from 'native-base';
 
 export default class Dashboard extends Component {
     render() {
@@ -17,6 +17,12 @@ export default class Dashboard extends Component {
                         </Button>
                     </Right>
                 </Header>
+                <Content>
+                    <Text>
+                        This is Dashboard Section
+                    </Text>
+                </Content>
+
             </Container>
         );
     }
