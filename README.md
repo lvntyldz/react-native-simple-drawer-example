@@ -1,6 +1,9 @@
 # react-native-simple-drawer-example
 Simple React Native Drawer Example with native base
 
+<img width="320px"  src="https://github.com/lvntyldz/react-native-simple-drawer-example/blob/master/images/drawer.gif?raw=true" />
+
+
 Download(Pull)
 ```
 git pull https://github.com/lvntyldz/react-native-simple-drawer-example
