@@ -1,15 +1,14 @@
 import React, {Component} from 'react';
 import {Text, View} from 'react-native';
-import {Container, Header, Left, Body, Button, Icon, Right, Title, Subtitle} from 'native-base';
+import {Body, Button, Container, Header, Icon, Left, Right, Title} from 'native-base';
 
-export default class MainView extends Component {
+export default class Dashboard extends Component {
     render() {
         return (
             <Container style={{backgroundColor: '#9b9494'}}>
                 <Header>
                     <Body>
-                    <Title>Main Screen</Title>
-                    <Subtitle>Content Will be Below</Subtitle>
+                    <Title>Dashboard</Title>
                     </Body>
                     <Left/>
                     <Right>
